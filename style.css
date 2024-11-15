@@ -129,7 +129,7 @@ body {
 }
 
 #searchDiv .container .searchInput {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -141,13 +141,14 @@ body {
 }
 
 #searchDiv .container .searchInput i {
+    width: 10%;
     align-self: center;
     margin: 0 10px;
     font-size: 20px;
 }
 
 #searchDiv .container .searchInput input {
-    flex-grow: 1;
+    width: 70%;
     border: none;
     padding: 10px;
     font-size: 20px;
@@ -158,6 +159,7 @@ body {
 }
 
 #searchDiv .container .searchInput button {
+    width: 20%;
     height: auto;
     border: none;
     padding: 10px;
