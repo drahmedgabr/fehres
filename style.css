@@ -129,7 +129,7 @@ body {
 }
 
 #searchDiv .container .searchInput {
-    width: 85%;
+    width: 75%;
     margin: auto;
     display: flex;
     align-items: stretch;
