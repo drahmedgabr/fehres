@@ -32,7 +32,7 @@ body {
 }
 
 .card .title {
-    padding: 10px;
+    padding: 20px;
     background-color: var(--secondary-color);
     margin-bottom: 30px;
     border-radius: 10px 10px 0 0;
@@ -132,7 +132,7 @@ body {
     width: 85%;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     border-radius: 10px;
     padding: 0;
     background-color: white;
@@ -140,6 +140,7 @@ body {
 }
 
 #searchDiv .container .searchInput i {
+    align-self: center;
     margin: 0 10px;
     font-size: 20px;
 }
@@ -148,6 +149,7 @@ body {
     flex-grow: 1;
     border: none;
     padding: 10px;
+    font-size: 20px;
 }
 
 #searchDiv .container .searchInput input:focus {
@@ -155,6 +157,7 @@ body {
 }
 
 #searchDiv .container .searchInput button {
+    height: auto;
     border: none;
     padding: 10px;
     border-radius: 10px 0 0 10px;
@@ -204,6 +207,6 @@ body {
     background-color: var(--main-color);
     color: white;
     margin-top: 20px;
-    padding: 20px 5px;
+    padding: 20px 0;
     font-size: 20px;
 }
